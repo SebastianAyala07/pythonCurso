@@ -13,6 +13,9 @@ raiz.iconbitmap("@/home/sebastian/Escritorio/Copia_seguridad_Sebastian/Curso_Pyt
 #para cambiar el tamaño de una venta se pueda de esta manera
 raiz.geometry("650x350")
 
+#tambien podemos cambia el color del fondo de esta manera
+raiz.config(bg="blue")
+
 #este metodo lo que hace es permitir o no que la pestaña se pueda agrandar
               #ancho #alto
 raiz.resizable(True,False)
